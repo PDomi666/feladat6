@@ -18,24 +18,30 @@ p:first-letter
 {
 	margin-left: 25px;
 }
+
+
 h2
 {
     font-size: 22px;
     font-variant: small-caps;
 }
+
 h6:first-letter
 {
 	margin-left: 25px;
 }
+
 caption
 {
     color: rgb(59,36,13);
     caption-side: top;
 }
+
 .tortenet
 {
     margin: 25px -15px -15px -15px;
 }
+
 .doboz
 {
     margin: 15px;
@@ -44,7 +50,9 @@ caption
     border-top-right-radius: 50px;
     height: 100%;
     background-color: rgb(192,173,154);
+    
 }
+
 nav
 {
     margin-bottom: 20px;
@@ -90,3 +98,32 @@ span
     user-select: none;
     touch-action: manipulation;
 }
+
+footer
+{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+
+#csokifa {
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+h1 {
+    font-size: 180%;
+    text-transform: uppercase;
+    text-align: right;
+    border-bottom: 2px dotted rgb(59,36,13);
+}
+
+.bevezeto
+{
+    text-align: justify;
+    font-style: italic;
+}
+
